@@ -44,3 +44,5 @@ gem "graphql", "~> 1.11"
 
 gem 'graphiql-rails', group: :development
 gem "rspec-rails", "~> 4.0", :groups => [:development, :test]
+
+gem "factory_bot_rails", "~> 6.1", :groups => [:development, :test]
