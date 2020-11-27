@@ -9,7 +9,7 @@ module Types
       description: "return list of items in the martian library"
 
     def items
-      Item.all
+      Item.preload(all
     end
   end
 end
